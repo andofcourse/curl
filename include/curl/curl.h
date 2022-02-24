@@ -2274,6 +2274,8 @@ typedef enum {
 
 /* curl_strequal() and curl_strnequal() are subject for removal in a future
    release */
+
+CURL_EXTERN void Fuzz_curl_strequal(const char *s1, const char *s2);
 CURL_EXTERN int curl_strequal(const char *s1, const char *s2);
 CURL_EXTERN int curl_strnequal(const char *s1, const char *s2, size_t n);
 

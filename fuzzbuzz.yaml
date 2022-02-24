@@ -1,0 +1,9 @@
+curl:
+  language: c
+  engine: bex
+  steps:
+  - run: autoreconf -fi
+  - run: ./configure --with-openssl
+  - run: make
+  deps:
+  - run: apt install openssl libssl-dev

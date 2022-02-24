@@ -1,0 +1,29 @@
+{
+	"warnings": null,
+	"fuzz_functions": [
+		{
+			"name": "Fuzz_curl_strequal",
+			"namespace": "",
+			"project_namespace": "",
+			"configuration_name": "curl",
+			"signature": "",
+			"language": "c",
+			"score": 0,
+			"harness": "",
+			"harness_name": "",
+			"imports": null,
+			"line_number": 137,
+			"file_location": "lib/strcase.c",
+			"package": null,
+			"fuzz_image": "",
+			"fuzz_binary": "lib/.libs/libfzbz-asan_ubsan-libcurl.so",
+			"test_binary": "lib/.libs/libfzbz-asan_ubsan-libcurl.so",
+			"coverage_binary": "lib/.libs/libfzbz-asan_ubsan-libcurl.so",
+			"fuzz_target_name": "Fuzz_curl_strequal",
+			"fuzz_engine": "bex",
+			"generated": false,
+			"bin_path": ".",
+			"sanitizer_partition": "asan_ubsan"
+		}
+	]
+}

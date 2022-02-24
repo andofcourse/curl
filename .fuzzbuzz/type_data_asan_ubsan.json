@@ -1,0 +1,1398 @@
+{
+	"lib/.libs/libcurl.so.4.7.0": [
+		{
+			"Symbol": {
+				"Name": "curl_getenv"
+			},
+			"Location": {
+				"Filename": "lib/getenv.c",
+				"Line": 74,
+				"Column": 7,
+				"Offset": 2244
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "char *",
+				"CanonicalType": "char *",
+				"HumanReadable": "char *"
+			},
+			"Param": [
+				{
+					"Name": "v",
+					"Type": "const char *",
+					"CanonicalType": "const char *",
+					"HumanReadable": "const char *v"
+				}
+			],
+			"HumanReadable": "char *curl_getenv(const char *)",
+			"DemangledName": "curl_getenv"
+		},
+		{
+			"Symbol": {
+				"Name": "curl_easy_option_by_name"
+			},
+			"Location": {
+				"Filename": "lib/easygetopt.c",
+				"Line": 52,
+				"Column": 31,
+				"Offset": 1688
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "const struct curl_easyoption *",
+				"CanonicalType": "const struct curl_easyoption *",
+				"HumanReadable": "const struct curl_easyoption *"
+			},
+			"Param": [
+				{
+					"Name": "name",
+					"Type": "const char *",
+					"CanonicalType": "const char *",
+					"HumanReadable": "const char *name"
+				}
+			],
+			"HumanReadable": "const struct curl_easyoption *curl_easy_option_by_name(const char *)",
+			"DemangledName": "curl_easy_option_by_name"
+		},
+		{
+			"Symbol": {
+				"Name": "curl_strnequal"
+			},
+			"Location": {
+				"Filename": "lib/strcase.c",
+				"Line": 147,
+				"Column": 5,
+				"Offset": 4217
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "int",
+				"CanonicalType": "int",
+				"HumanReadable": "int"
+			},
+			"Param": [
+				{
+					"Name": "first",
+					"Type": "const char *",
+					"CanonicalType": "const char *",
+					"HumanReadable": "const char *first"
+				},
+				{
+					"Name": "second",
+					"Type": "const char *",
+					"CanonicalType": "const char *",
+					"HumanReadable": "const char *second"
+				},
+				{
+					"Name": "max",
+					"Type": "size_t",
+					"CanonicalType": "unsigned long",
+					"HumanReadable": "size_t max"
+				}
+			],
+			"HumanReadable": "int curl_strnequal(const char *, const char *, size_t)",
+			"DemangledName": "curl_strnequal"
+		},
+		{
+			"Symbol": {
+				"Name": "curl_strequal"
+			},
+			"Location": {
+				"Filename": "lib/strcase.c",
+				"Line": 143,
+				"Column": 5,
+				"Offset": 4111
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "int",
+				"CanonicalType": "int",
+				"HumanReadable": "int"
+			},
+			"Param": [
+				{
+					"Name": "first",
+					"Type": "const char *",
+					"CanonicalType": "const char *",
+					"HumanReadable": "const char *first"
+				},
+				{
+					"Name": "second",
+					"Type": "const char *",
+					"CanonicalType": "const char *",
+					"HumanReadable": "const char *second"
+				}
+			],
+			"HumanReadable": "int curl_strequal(const char *, const char *)",
+			"DemangledName": "curl_strequal"
+		},
+		{
+			"Symbol": {
+				"Name": "curl_unescape"
+			},
+			"Location": {
+				"Filename": "lib/escape.c",
+				"Line": 73,
+				"Column": 7,
+				"Offset": 2661
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "char *",
+				"CanonicalType": "char *",
+				"HumanReadable": "char *"
+			},
+			"Param": [
+				{
+					"Name": "string",
+					"Type": "const char *",
+					"CanonicalType": "const char *",
+					"HumanReadable": "const char *string"
+				},
+				{
+					"Name": "length",
+					"Type": "int",
+					"CanonicalType": "int",
+					"HumanReadable": "int length"
+				}
+			],
+			"HumanReadable": "char *curl_unescape(const char *, int)",
+			"DemangledName": "curl_unescape"
+		},
+		{
+			"Symbol": {
+				"Name": "curl_escape"
+			},
+			"Location": {
+				"Filename": "lib/escape.c",
+				"Line": 67,
+				"Column": 7,
+				"Offset": 2502
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "char *",
+				"CanonicalType": "char *",
+				"HumanReadable": "char *"
+			},
+			"Param": [
+				{
+					"Name": "string",
+					"Type": "const char *",
+					"CanonicalType": "const char *",
+					"HumanReadable": "const char *string"
+				},
+				{
+					"Name": "inlength",
+					"Type": "int",
+					"CanonicalType": "int",
+					"HumanReadable": "int inlength"
+				}
+			],
+			"HumanReadable": "char *curl_escape(const char *, int)",
+			"DemangledName": "curl_escape"
+		},
+		{
+			"Symbol": {
+				"Name": "curl_global_init"
+			},
+			"Location": {
+				"Filename": "lib/easy.c",
+				"Line": 208,
+				"Column": 10,
+				"Offset": 5575
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "CURLcode",
+				"CanonicalType": "CURLcode",
+				"HumanReadable": "CURLcode"
+			},
+			"Param": [
+				{
+					"Name": "flags",
+					"Type": "long",
+					"CanonicalType": "long",
+					"HumanReadable": "long flags"
+				}
+			],
+			"HumanReadable": "CURLcode curl_global_init(long)",
+			"DemangledName": "curl_global_init"
+		}
+	],
+	"lib/.libs/libfzbz-asan_ubsan-libcurl.so": [
+		{
+			"Symbol": {
+				"Name": "curl_strequal"
+			},
+			"Location": {
+				"Filename": "lib/strcase.c",
+				"Line": 143,
+				"Column": 5,
+				"Offset": 4111
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "int",
+				"CanonicalType": "int",
+				"HumanReadable": "int"
+			},
+			"Param": [
+				{
+					"Name": "first",
+					"Type": "const char *",
+					"CanonicalType": "const char *",
+					"HumanReadable": "const char *first"
+				},
+				{
+					"Name": "second",
+					"Type": "const char *",
+					"CanonicalType": "const char *",
+					"HumanReadable": "const char *second"
+				}
+			],
+			"HumanReadable": "int curl_strequal(const char *, const char *)",
+			"DemangledName": "curl_strequal"
+		},
+		{
+			"Symbol": {
+				"Name": "curl_strnequal"
+			},
+			"Location": {
+				"Filename": "lib/strcase.c",
+				"Line": 147,
+				"Column": 5,
+				"Offset": 4217
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "int",
+				"CanonicalType": "int",
+				"HumanReadable": "int"
+			},
+			"Param": [
+				{
+					"Name": "first",
+					"Type": "const char *",
+					"CanonicalType": "const char *",
+					"HumanReadable": "const char *first"
+				},
+				{
+					"Name": "second",
+					"Type": "const char *",
+					"CanonicalType": "const char *",
+					"HumanReadable": "const char *second"
+				},
+				{
+					"Name": "max",
+					"Type": "size_t",
+					"CanonicalType": "unsigned long",
+					"HumanReadable": "size_t max"
+				}
+			],
+			"HumanReadable": "int curl_strnequal(const char *, const char *, size_t)",
+			"DemangledName": "curl_strnequal"
+		},
+		{
+			"Symbol": {
+				"Name": "curl_easy_option_by_name"
+			},
+			"Location": {
+				"Filename": "lib/easygetopt.c",
+				"Line": 52,
+				"Column": 31,
+				"Offset": 1688
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "const struct curl_easyoption *",
+				"CanonicalType": "const struct curl_easyoption *",
+				"HumanReadable": "const struct curl_easyoption *"
+			},
+			"Param": [
+				{
+					"Name": "name",
+					"Type": "const char *",
+					"CanonicalType": "const char *",
+					"HumanReadable": "const char *name"
+				}
+			],
+			"HumanReadable": "const struct curl_easyoption *curl_easy_option_by_name(const char *)",
+			"DemangledName": "curl_easy_option_by_name"
+		},
+		{
+			"Symbol": {
+				"Name": "curl_getenv"
+			},
+			"Location": {
+				"Filename": "lib/getenv.c",
+				"Line": 74,
+				"Column": 7,
+				"Offset": 2244
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "char *",
+				"CanonicalType": "char *",
+				"HumanReadable": "char *"
+			},
+			"Param": [
+				{
+					"Name": "v",
+					"Type": "const char *",
+					"CanonicalType": "const char *",
+					"HumanReadable": "const char *v"
+				}
+			],
+			"HumanReadable": "char *curl_getenv(const char *)",
+			"DemangledName": "curl_getenv"
+		},
+		{
+			"Symbol": {
+				"Name": "Fuzz_curl_strequal"
+			},
+			"Location": {
+				"Filename": "lib/strcase.c",
+				"Line": 137,
+				"Column": 6,
+				"Offset": 4012
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "void",
+				"CanonicalType": "void",
+				"HumanReadable": "void"
+			},
+			"Param": [
+				{
+					"Name": "first",
+					"Type": "const char *",
+					"CanonicalType": "const char *",
+					"HumanReadable": "const char *first"
+				},
+				{
+					"Name": "second",
+					"Type": "const char *",
+					"CanonicalType": "const char *",
+					"HumanReadable": "const char *second"
+				}
+			],
+			"HumanReadable": "void Fuzz_curl_strequal(const char *, const char *)",
+			"DemangledName": "Fuzz_curl_strequal"
+		},
+		{
+			"Symbol": {
+				"Name": "curl_global_init"
+			},
+			"Location": {
+				"Filename": "lib/easy.c",
+				"Line": 208,
+				"Column": 10,
+				"Offset": 5575
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "CURLcode",
+				"CanonicalType": "CURLcode",
+				"HumanReadable": "CURLcode"
+			},
+			"Param": [
+				{
+					"Name": "flags",
+					"Type": "long",
+					"CanonicalType": "long",
+					"HumanReadable": "long flags"
+				}
+			],
+			"HumanReadable": "CURLcode curl_global_init(long)",
+			"DemangledName": "curl_global_init"
+		},
+		{
+			"Symbol": {
+				"Name": "curl_unescape"
+			},
+			"Location": {
+				"Filename": "lib/escape.c",
+				"Line": 73,
+				"Column": 7,
+				"Offset": 2661
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "char *",
+				"CanonicalType": "char *",
+				"HumanReadable": "char *"
+			},
+			"Param": [
+				{
+					"Name": "string",
+					"Type": "const char *",
+					"CanonicalType": "const char *",
+					"HumanReadable": "const char *string"
+				},
+				{
+					"Name": "length",
+					"Type": "int",
+					"CanonicalType": "int",
+					"HumanReadable": "int length"
+				}
+			],
+			"HumanReadable": "char *curl_unescape(const char *, int)",
+			"DemangledName": "curl_unescape"
+		},
+		{
+			"Symbol": {
+				"Name": "curl_escape"
+			},
+			"Location": {
+				"Filename": "lib/escape.c",
+				"Line": 67,
+				"Column": 7,
+				"Offset": 2502
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "char *",
+				"CanonicalType": "char *",
+				"HumanReadable": "char *"
+			},
+			"Param": [
+				{
+					"Name": "string",
+					"Type": "const char *",
+					"CanonicalType": "const char *",
+					"HumanReadable": "const char *string"
+				},
+				{
+					"Name": "inlength",
+					"Type": "int",
+					"CanonicalType": "int",
+					"HumanReadable": "int inlength"
+				}
+			],
+			"HumanReadable": "char *curl_escape(const char *, int)",
+			"DemangledName": "curl_escape"
+		}
+	],
+	"src/.libs/libfzbz-asan_ubsan-curl.so": [
+		{
+			"Symbol": {
+				"Name": "Curl_iscntrl"
+			},
+			"Location": {
+				"Filename": "lib/curl_ctype.c",
+				"Line": 124,
+				"Column": 5,
+				"Offset": 3415
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "int",
+				"CanonicalType": "int",
+				"HumanReadable": "int"
+			},
+			"Param": [
+				{
+					"Name": "c",
+					"Type": "int",
+					"CanonicalType": "int",
+					"HumanReadable": "int c"
+				}
+			],
+			"HumanReadable": "int Curl_iscntrl(int)",
+			"DemangledName": "Curl_iscntrl"
+		},
+		{
+			"Symbol": {
+				"Name": "Curl_isalnum"
+			},
+			"Location": {
+				"Filename": "lib/curl_ctype.c",
+				"Line": 75,
+				"Column": 5,
+				"Offset": 2630
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "int",
+				"CanonicalType": "int",
+				"HumanReadable": "int"
+			},
+			"Param": [
+				{
+					"Name": "c",
+					"Type": "int",
+					"CanonicalType": "int",
+					"HumanReadable": "int c"
+				}
+			],
+			"HumanReadable": "int Curl_isalnum(int)",
+			"DemangledName": "Curl_isalnum"
+		},
+		{
+			"Symbol": {
+				"Name": "curlx_sztosi"
+			},
+			"Location": {
+				"Filename": "lib/warnless.c",
+				"Line": 285,
+				"Column": 5,
+				"Offset": 6517
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "int",
+				"CanonicalType": "int",
+				"HumanReadable": "int"
+			},
+			"Param": [
+				{
+					"Name": "sznum",
+					"Type": "ssize_t",
+					"CanonicalType": "long",
+					"HumanReadable": "ssize_t sznum"
+				}
+			],
+			"HumanReadable": "int curlx_sztosi(ssize_t)",
+			"DemangledName": "curlx_sztosi"
+		},
+		{
+			"Symbol": {
+				"Name": "curlx_sltoui"
+			},
+			"Location": {
+				"Filename": "lib/warnless.c",
+				"Line": 205,
+				"Column": 14,
+				"Offset": 4904
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "unsigned int",
+				"CanonicalType": "unsigned int",
+				"HumanReadable": "unsigned int"
+			},
+			"Param": [
+				{
+					"Name": "slnum",
+					"Type": "long",
+					"CanonicalType": "long",
+					"HumanReadable": "long slnum"
+				}
+			],
+			"HumanReadable": "unsigned int curlx_sltoui(long)",
+			"DemangledName": "curlx_sltoui"
+		},
+		{
+			"Symbol": {
+				"Name": "Curl_isprint"
+			},
+			"Location": {
+				"Filename": "lib/curl_ctype.c",
+				"Line": 96,
+				"Column": 5,
+				"Offset": 2981
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "int",
+				"CanonicalType": "int",
+				"HumanReadable": "int"
+			},
+			"Param": [
+				{
+					"Name": "c",
+					"Type": "int",
+					"CanonicalType": "int",
+					"HumanReadable": "int c"
+				}
+			],
+			"HumanReadable": "int Curl_isprint(int)",
+			"DemangledName": "Curl_isprint"
+		},
+		{
+			"Symbol": {
+				"Name": "cleanarg"
+			},
+			"Location": {
+				"Filename": "src/tool_paramhlp.c",
+				"Line": 111,
+				"Column": 6,
+				"Offset": 3004
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "void",
+				"CanonicalType": "void",
+				"HumanReadable": "void"
+			},
+			"Param": [
+				{
+					"Name": "str",
+					"Type": "char *",
+					"CanonicalType": "char *",
+					"HumanReadable": "char *str"
+				}
+			],
+			"HumanReadable": "void cleanarg(char *)",
+			"DemangledName": "cleanarg"
+		},
+		{
+			"Symbol": {
+				"Name": "add_file_name_to_url"
+			},
+			"Location": {
+				"Filename": "src/tool_operhlp.c",
+				"Line": 74,
+				"Column": 7,
+				"Offset": 2246
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "char *",
+				"CanonicalType": "char *",
+				"HumanReadable": "char *"
+			},
+			"Param": [
+				{
+					"Name": "url",
+					"Type": "char *",
+					"CanonicalType": "char *",
+					"HumanReadable": "char *url"
+				},
+				{
+					"Name": "filename",
+					"Type": "const char *",
+					"CanonicalType": "const char *",
+					"HumanReadable": "const char *filename"
+				}
+			],
+			"HumanReadable": "char *add_file_name_to_url(char *, const char *)",
+			"DemangledName": "add_file_name_to_url"
+		},
+		{
+			"Symbol": {
+				"Name": "curlx_sotouz"
+			},
+			"Location": {
+				"Filename": "lib/warnless.c",
+				"Line": 266,
+				"Column": 8,
+				"Offset": 6167
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "size_t",
+				"CanonicalType": "unsigned long",
+				"HumanReadable": "size_t"
+			},
+			"Param": [
+				{
+					"Name": "sonum",
+					"Type": "curl_off_t",
+					"CanonicalType": "long",
+					"HumanReadable": "curl_off_t sonum"
+				}
+			],
+			"HumanReadable": "size_t curlx_sotouz(curl_off_t)",
+			"DemangledName": "curlx_sotouz"
+		},
+		{
+			"Symbol": {
+				"Name": "curlx_uitous"
+			},
+			"Location": {
+				"Filename": "lib/warnless.c",
+				"Line": 307,
+				"Column": 16,
+				"Offset": 6959
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "unsigned short",
+				"CanonicalType": "unsigned short",
+				"HumanReadable": "unsigned short"
+			},
+			"Param": [
+				{
+					"Name": "uinum",
+					"Type": "unsigned int",
+					"CanonicalType": "unsigned int",
+					"HumanReadable": "unsigned int uinum"
+				}
+			],
+			"HumanReadable": "unsigned short curlx_uitous(unsigned int)",
+			"DemangledName": "curlx_uitous"
+		},
+		{
+			"Symbol": {
+				"Name": "scheme2protocol"
+			},
+			"Location": {
+				"Filename": "src/tool_libinfo.c",
+				"Line": 109,
+				"Column": 6,
+				"Offset": 3456
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "long",
+				"CanonicalType": "long",
+				"HumanReadable": "long"
+			},
+			"Param": [
+				{
+					"Name": "scheme",
+					"Type": "const char *",
+					"CanonicalType": "const char *",
+					"HumanReadable": "const char *scheme"
+				}
+			],
+			"HumanReadable": "long scheme2protocol(const char *)",
+			"DemangledName": "scheme2protocol"
+		},
+		{
+			"Symbol": {
+				"Name": "curlx_nonblock"
+			},
+			"Location": {
+				"Filename": "lib/nonblock.c",
+				"Line": 47,
+				"Column": 5,
+				"Offset": 1484
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "int",
+				"CanonicalType": "int",
+				"HumanReadable": "int"
+			},
+			"Param": [
+				{
+					"Name": "sockfd",
+					"Type": "curl_socket_t",
+					"CanonicalType": "int",
+					"HumanReadable": "curl_socket_t sockfd"
+				},
+				{
+					"Name": "nonblock",
+					"Type": "int",
+					"CanonicalType": "int",
+					"HumanReadable": "int nonblock"
+				}
+			],
+			"HumanReadable": "int curlx_nonblock(curl_socket_t, int)",
+			"DemangledName": "curlx_nonblock"
+		},
+		{
+			"Symbol": {
+				"Name": "findfile"
+			},
+			"Location": {
+				"Filename": "src/tool_findfile.c",
+				"Line": 100,
+				"Column": 7,
+				"Offset": 2931
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "char *",
+				"CanonicalType": "char *",
+				"HumanReadable": "char *"
+			},
+			"Param": [
+				{
+					"Name": "fname",
+					"Type": "const char *",
+					"CanonicalType": "const char *",
+					"HumanReadable": "const char *fname"
+				},
+				{
+					"Name": "dotscore",
+					"Type": "int",
+					"CanonicalType": "int",
+					"HumanReadable": "int dotscore"
+				}
+			],
+			"HumanReadable": "char *findfile(const char *, int)",
+			"DemangledName": "findfile"
+		},
+		{
+			"Symbol": {
+				"Name": "curlx_ultouc"
+			},
+			"Location": {
+				"Filename": "lib/warnless.c",
+				"Line": 81,
+				"Column": 15,
+				"Offset": 2364
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "unsigned char",
+				"CanonicalType": "unsigned char",
+				"HumanReadable": "unsigned char"
+			},
+			"Param": [
+				{
+					"Name": "ulnum",
+					"Type": "unsigned long",
+					"CanonicalType": "unsigned long",
+					"HumanReadable": "unsigned long ulnum"
+				}
+			],
+			"HumanReadable": "unsigned char curlx_ultouc(unsigned long)",
+			"DemangledName": "curlx_ultouc"
+		},
+		{
+			"Symbol": {
+				"Name": "tool_go_sleep"
+			},
+			"Location": {
+				"Filename": "src/tool_sleep.c",
+				"Line": 44,
+				"Column": 6,
+				"Offset": 1383
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "void",
+				"CanonicalType": "void",
+				"HumanReadable": "void"
+			},
+			"Param": [
+				{
+					"Name": "ms",
+					"Type": "long",
+					"CanonicalType": "long",
+					"HumanReadable": "long ms"
+				}
+			],
+			"HumanReadable": "void tool_go_sleep(long)",
+			"DemangledName": "tool_go_sleep"
+		},
+		{
+			"Symbol": {
+				"Name": "check_protocol"
+			},
+			"Location": {
+				"Filename": "src/tool_paramhlp.c",
+				"Line": 387,
+				"Column": 5,
+				"Offset": 10217
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "int",
+				"CanonicalType": "int",
+				"HumanReadable": "int"
+			},
+			"Param": [
+				{
+					"Name": "str",
+					"Type": "const char *",
+					"CanonicalType": "const char *",
+					"HumanReadable": "const char *str"
+				}
+			],
+			"HumanReadable": "int check_protocol(const char *)",
+			"DemangledName": "check_protocol"
+		},
+		{
+			"Symbol": {
+				"Name": "Curl_isspace"
+			},
+			"Location": {
+				"Filename": "lib/curl_ctype.c",
+				"Line": 61,
+				"Column": 5,
+				"Offset": 2426
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "int",
+				"CanonicalType": "int",
+				"HumanReadable": "int"
+			},
+			"Param": [
+				{
+					"Name": "c",
+					"Type": "int",
+					"CanonicalType": "int",
+					"HumanReadable": "int c"
+				}
+			],
+			"HumanReadable": "int Curl_isspace(int)",
+			"DemangledName": "Curl_isspace"
+		},
+		{
+			"Symbol": {
+				"Name": "output_expected"
+			},
+			"Location": {
+				"Filename": "src/tool_operhlp.c",
+				"Line": 54,
+				"Column": 6,
+				"Offset": 1662
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "_Bool",
+				"CanonicalType": "_Bool",
+				"HumanReadable": "_Bool"
+			},
+			"Param": [
+				{
+					"Name": "url",
+					"Type": "const char *",
+					"CanonicalType": "const char *",
+					"HumanReadable": "const char *url"
+				},
+				{
+					"Name": "uploadfile",
+					"Type": "const char *",
+					"CanonicalType": "const char *",
+					"HumanReadable": "const char *uploadfile"
+				}
+			],
+			"HumanReadable": "_Bool output_expected(const char *, const char *)",
+			"DemangledName": "output_expected"
+		},
+		{
+			"Symbol": {
+				"Name": "Curl_isdigit"
+			},
+			"Location": {
+				"Filename": "lib/curl_ctype.c",
+				"Line": 68,
+				"Column": 5,
+				"Offset": 2528
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "int",
+				"CanonicalType": "int",
+				"HumanReadable": "int"
+			},
+			"Param": [
+				{
+					"Name": "c",
+					"Type": "int",
+					"CanonicalType": "int",
+					"HumanReadable": "int c"
+				}
+			],
+			"HumanReadable": "int Curl_isdigit(int)",
+			"DemangledName": "Curl_isdigit"
+		},
+		{
+			"Symbol": {
+				"Name": "tool_help"
+			},
+			"Location": {
+				"Filename": "src/tool_help.c",
+				"Line": 163,
+				"Column": 6,
+				"Offset": 5509
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "void",
+				"CanonicalType": "void",
+				"HumanReadable": "void"
+			},
+			"Param": [
+				{
+					"Name": "category",
+					"Type": "char *",
+					"CanonicalType": "char *",
+					"HumanReadable": "char *category"
+				}
+			],
+			"HumanReadable": "void tool_help(char *)",
+			"DemangledName": "tool_help"
+		},
+		{
+			"Symbol": {
+				"Name": "curlx_ultous"
+			},
+			"Location": {
+				"Filename": "lib/warnless.c",
+				"Line": 62,
+				"Column": 16,
+				"Offset": 1958
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "unsigned short",
+				"CanonicalType": "unsigned short",
+				"HumanReadable": "unsigned short"
+			},
+			"Param": [
+				{
+					"Name": "ulnum",
+					"Type": "unsigned long",
+					"CanonicalType": "unsigned long",
+					"HumanReadable": "unsigned long ulnum"
+				}
+			],
+			"HumanReadable": "unsigned short curlx_ultous(unsigned long)",
+			"DemangledName": "curlx_ultous"
+		},
+		{
+			"Symbol": {
+				"Name": "Curl_isupper"
+			},
+			"Location": {
+				"Filename": "lib/curl_ctype.c",
+				"Line": 110,
+				"Column": 5,
+				"Offset": 3207
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "int",
+				"CanonicalType": "int",
+				"HumanReadable": "int"
+			},
+			"Param": [
+				{
+					"Name": "c",
+					"Type": "int",
+					"CanonicalType": "int",
+					"HumanReadable": "int c"
+				}
+			],
+			"HumanReadable": "int Curl_isupper(int)",
+			"DemangledName": "Curl_isupper"
+		},
+		{
+			"Symbol": {
+				"Name": "Curl_isalpha"
+			},
+			"Location": {
+				"Filename": "lib/curl_ctype.c",
+				"Line": 103,
+				"Column": 5,
+				"Offset": 3100
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "int",
+				"CanonicalType": "int",
+				"HumanReadable": "int"
+			},
+			"Param": [
+				{
+					"Name": "c",
+					"Type": "int",
+					"CanonicalType": "int",
+					"HumanReadable": "int c"
+				}
+			],
+			"HumanReadable": "int Curl_isalpha(int)",
+			"DemangledName": "Curl_isalpha"
+		},
+		{
+			"Symbol": {
+				"Name": "Curl_isxdigit"
+			},
+			"Location": {
+				"Filename": "lib/curl_ctype.c",
+				"Line": 82,
+				"Column": 5,
+				"Offset": 2740
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "int",
+				"CanonicalType": "int",
+				"HumanReadable": "int"
+			},
+			"Param": [
+				{
+					"Name": "c",
+					"Type": "int",
+					"CanonicalType": "int",
+					"HumanReadable": "int c"
+				}
+			],
+			"HumanReadable": "int Curl_isxdigit(int)",
+			"DemangledName": "Curl_isxdigit"
+		},
+		{
+			"Symbol": {
+				"Name": "curlx_sitouz"
+			},
+			"Location": {
+				"Filename": "lib/warnless.c",
+				"Line": 326,
+				"Column": 8,
+				"Offset": 7355
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "size_t",
+				"CanonicalType": "unsigned long",
+				"HumanReadable": "size_t"
+			},
+			"Param": [
+				{
+					"Name": "sinum",
+					"Type": "int",
+					"CanonicalType": "int",
+					"HumanReadable": "int sinum"
+				}
+			],
+			"HumanReadable": "size_t curlx_sitouz(int)",
+			"DemangledName": "curlx_sitouz"
+		},
+		{
+			"Symbol": {
+				"Name": "Curl_islower"
+			},
+			"Location": {
+				"Filename": "lib/curl_ctype.c",
+				"Line": 117,
+				"Column": 5,
+				"Offset": 3311
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "int",
+				"CanonicalType": "int",
+				"HumanReadable": "int"
+			},
+			"Param": [
+				{
+					"Name": "c",
+					"Type": "int",
+					"CanonicalType": "int",
+					"HumanReadable": "int c"
+				}
+			],
+			"HumanReadable": "int Curl_islower(int)",
+			"DemangledName": "Curl_islower"
+		},
+		{
+			"Symbol": {
+				"Name": "getpass_r"
+			},
+			"Location": {
+				"Filename": "src/tool_getpass.c",
+				"Line": 220,
+				"Column": 7,
+				"Offset": 5516
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "char *",
+				"CanonicalType": "char *",
+				"HumanReadable": "char *"
+			},
+			"Param": [
+				{
+					"Name": "prompt",
+					"Type": "const char *",
+					"CanonicalType": "const char *",
+					"HumanReadable": "const char *prompt"
+				},
+				{
+					"Name": "password",
+					"Type": "char *",
+					"CanonicalType": "char *",
+					"HumanReadable": "char *password"
+				},
+				{
+					"Name": "buflen",
+					"Type": "size_t",
+					"CanonicalType": "unsigned long",
+					"HumanReadable": "size_t buflen"
+				}
+			],
+			"HumanReadable": "char *getpass_r(const char *, char *, size_t)",
+			"DemangledName": "getpass_r"
+		},
+		{
+			"Symbol": {
+				"Name": "Curl_isgraph"
+			},
+			"Location": {
+				"Filename": "lib/curl_ctype.c",
+				"Line": 89,
+				"Column": 5,
+				"Offset": 2848
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "int",
+				"CanonicalType": "int",
+				"HumanReadable": "int"
+			},
+			"Param": [
+				{
+					"Name": "c",
+					"Type": "int",
+					"CanonicalType": "int",
+					"HumanReadable": "int c"
+				}
+			],
+			"HumanReadable": "int Curl_isgraph(int)",
+			"DemangledName": "Curl_isgraph"
+		},
+		{
+			"Symbol": {
+				"Name": "param2text"
+			},
+			"Location": {
+				"Filename": "src/tool_helpers.c",
+				"Line": 41,
+				"Column": 13,
+				"Offset": 1396
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "const char *",
+				"CanonicalType": "const char *",
+				"HumanReadable": "const char *"
+			},
+			"Param": [
+				{
+					"Name": "res",
+					"Type": "int",
+					"CanonicalType": "int",
+					"HumanReadable": "int res"
+				}
+			],
+			"HumanReadable": "const char *param2text(int)",
+			"DemangledName": "param2text"
+		},
+		{
+			"Symbol": {
+				"Name": "curlx_sltous"
+			},
+			"Location": {
+				"Filename": "lib/warnless.c",
+				"Line": 227,
+				"Column": 16,
+				"Offset": 5360
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "unsigned short",
+				"CanonicalType": "unsigned short",
+				"HumanReadable": "unsigned short"
+			},
+			"Param": [
+				{
+					"Name": "slnum",
+					"Type": "long",
+					"CanonicalType": "long",
+					"HumanReadable": "long slnum"
+				}
+			],
+			"HumanReadable": "unsigned short curlx_sltous(long)",
+			"DemangledName": "curlx_sltous"
+		},
+		{
+			"Symbol": {
+				"Name": "stdin_upload"
+			},
+			"Location": {
+				"Filename": "src/tool_operhlp.c",
+				"Line": 64,
+				"Column": 6,
+				"Offset": 1964
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "_Bool",
+				"CanonicalType": "_Bool",
+				"HumanReadable": "_Bool"
+			},
+			"Param": [
+				{
+					"Name": "uploadfile",
+					"Type": "const char *",
+					"CanonicalType": "const char *",
+					"HumanReadable": "const char *uploadfile"
+				}
+			],
+			"HumanReadable": "_Bool stdin_upload(const char *)",
+			"DemangledName": "stdin_upload"
+		},
+		{
+			"Symbol": {
+				"Name": "curlx_sltosi"
+			},
+			"Location": {
+				"Filename": "lib/warnless.c",
+				"Line": 183,
+				"Column": 5,
+				"Offset": 4462
+			},
+			"Variadic": false,
+			"ReturnType": {
+				"Name": "",
+				"Type": "int",
+				"CanonicalType": "int",
+				"HumanReadable": "int"
+			},
+			"Param": [
+				{
+					"Name": "slnum",
+					"Type": "long",
+					"CanonicalType": "long",
+					"HumanReadable": "long slnum"
+				}
+			],
+			"HumanReadable": "int curlx_sltosi(long)",
+			"DemangledName": "curlx_sltosi"
+		}
+	]
+}

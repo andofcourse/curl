@@ -133,6 +133,13 @@ void Curl_strntolower(char *dest, const char *src, size_t n)
 
 /* --- public functions --- */
 
+
+void Fuzz_curl_strequal(const char *first, const char *second)
+{
+	curl_strequal(first, second);
+}
+
+
 int curl_strequal(const char *first, const char *second)
 {
   return Curl_strcasecompare(first, second);
